@@ -50,7 +50,7 @@ public class Day1 {
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 			
-			driver.get("https://www.qa.jpay.com");
+			driver.get("https://www.dev1.jpay.com");
 			
 			//Navigate functions
 			//driver.navigate().to("https://www.qa.jpay.com");
